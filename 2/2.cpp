@@ -8,9 +8,9 @@ int main()
 	{
 		scanf_s("%d", &arr[i]);
 	}
-	int maxSum = arr[0];
-	int curSum = arr[0];
-	for (i = 1; i < n; i++)
+	int maxSum = 0;
+	int curSum = 0;
+	for (i = 0; i < n; i++)
 	{
 		if (curSum <= 0)
 		{
